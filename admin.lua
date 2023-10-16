@@ -15,6 +15,7 @@ elseif name == "dominus" then
   else
     NotifyUser("ERROR","Available hats: dominus and fedora",20)
 end
+end
 
 function FindUser(name)
 for i,v in pairs(game.Players:GetChildren()) do
